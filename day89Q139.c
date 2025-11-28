@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+enum Example { A = 5, B = 10, C = 15 };
+
+int main() {
+    printf("A = %d\n", A);
+    printf("B = %d\n", B);
+    printf("C = %d\n", C);
+
+    return 0;
+}
